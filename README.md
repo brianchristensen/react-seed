@@ -1,15 +1,15 @@
-## react-starter-kit
+# react-starter-kit
 
 My highly opinionated starter kit for react/redux.
 
-# Development:
+## Development:
 ```yarn start```
 
-# Test:
+## Test:
 ```yarn test```
 
-# Build:
+## Build:
 ```yarn build```
 
-# Deploy:
+## Deploy:
 ```./build.sh```
