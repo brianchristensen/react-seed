@@ -3,7 +3,7 @@
 My highly opinionated starter kit for react/redux.
 
 ## Development:
-```yarn start```
+```yarn install && yarn start```
 
 ## Test:
 ```yarn test```
