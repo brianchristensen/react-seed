@@ -1,5 +1,5 @@
 import React from 'react';
-import { H1 } from 'components/styled';
+import { H1 } from 'components';
 
 const Home = () => (
     <div>

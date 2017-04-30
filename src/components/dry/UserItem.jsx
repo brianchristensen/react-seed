@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-import Li from 'components/styled/Li';
+import { Li } from 'components';
 
 export default class UserItem extends PureComponent {
     static propTypes = {
