@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Map } from 'immutable';
 
-import bindf from 'utils/bindf';
 import * as jsontestActions from 'actions/jsontest';
 import UserItem from 'components/dry/UserItem';
 
@@ -18,17 +17,11 @@ export class UserList extends PureComponent {
         'toggleDetails': Map()
     }
 
-    constructor(props) {
-        super(props);
-
-        bindf.call(this, ['onClick']);
-    }
-
     componentWillMount() {
         this.props.jsontestAPI.getUsers();
     }
 
-    onClick(e) {
+    onClick = (e) => {
         let id = e.currentTarget.dataset.id;
         let toggle = this.state.toggleDetails.get(id) ? false : true;
         
