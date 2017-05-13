@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
-import jsontest from 'reducers/jsontest';
+
+import jsontest from 'modules/jsontest';
 
 export default combineReducers({
     jsontest

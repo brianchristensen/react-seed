@@ -7,7 +7,7 @@
     "author": "Brian Christensen",
     "license": "MIT",
     "scripts": {
-        "start": "export NODE_ENV=development && webpack-dev-server --history-api-fallback --progress --colors --hot --config ./webpack.config.js --port 3000",
+        "start": "export NODE_ENV=development && webpack-dev-server -d --history-api-fallback --progress --colors --hot --config ./webpack.config.js --port 3000",
         "test": "jest",
         "build": "export NODE_ENV=production && webpack --optimize-minimize --progress --colors --config ./webpack.config.js"
     },

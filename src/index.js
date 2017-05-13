@@ -6,7 +6,7 @@ import thunk from 'redux-thunk';
 import 'babel-polyfill';
 
 import App from 'components/App';
-import rootReducer from 'reducers';
+import rootReducer from 'modules';
 
 const store = createStore(
     rootReducer,

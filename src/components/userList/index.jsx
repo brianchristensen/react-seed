@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Map } from 'immutable';
 
-import * as jsontestActions from 'actions/jsontest';
-import UserItem from 'components/dry/UserItem';
+import * as jsontestActions from 'modules/jsontest';
+import UserItem from 'components/userList/UserItem';
 
 export class UserList extends PureComponent {
     static propTypes = {
